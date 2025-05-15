@@ -1,0 +1,90 @@
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Aplicando a fonte globalmente */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para a seção How-Work */
+.how-work {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 3rem; /* Aumentado o padding para mais espaçamento */
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    line-height: 1.6;
+}
+
+.how-work h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; /* Maior espaçamento abaixo do título */
+    text-align: center;
+}
+
+.how-work ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+.how-work li {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem; /* Maior espaçamento entre as questões */
+}
+
+.how-work li strong {
+    font-weight: bold;
+}
+
+.how-work ul ul {
+    margin-left: 1.5rem;
+    list-style-type: circle;
+}
+
+.how-work ul ul li {
+    font-size: 1rem;
+    margin-bottom: 1rem; /* Espaçamento entre subitens */
+}
+
+.how-work p {
+    font-size: 1.125rem;
+    color: #374151;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Estilo para os botões dentro da seção */
+.how-work .button {
+    padding: 1rem 2.5rem; /* Aumentado o padding dos botões */
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 1rem; /* Espaçamento entre os botões */
+}
+
+.how-work .button.primary {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+.how-work .button.primary:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+.how-work .button.secondary {
+    background-color: #10b981;
+    color: #ffffff;
+}
+
+.how-work .button.secondary:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+}

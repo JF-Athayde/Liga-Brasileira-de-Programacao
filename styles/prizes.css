@@ -1,0 +1,73 @@
+/* Estilo para a seção Premiação */
+.prizes {
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.prizes h2 {
+    font-size: 2.25rem;
+    text-align: center;
+    color: #10b981; /* Cor verde para destacar */
+    margin-bottom: 1.5rem;
+}
+
+.prizes p {
+    font-size: 1.125rem;
+    color: #374151;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.prizes ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+.prizes li {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.prizes li strong {
+    font-weight: bold;
+    color: #3b82f6; /* Azul para destacar os valores */
+}
+
+.prizes ul ul {
+    margin-left: 1.5rem;
+    list-style-type: circle;
+}
+
+.prizes ul ul li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prizes .button {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 1rem;
+}
+
+.prizes .button.primary {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+.prizes .button.primary:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}

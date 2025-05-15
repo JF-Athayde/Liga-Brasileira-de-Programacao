@@ -1,0 +1,27 @@
+body {
+    background-color: #006aff18;
+}
+
+main {
+    margin: auto;
+    padding: auto;
+    width: 90%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

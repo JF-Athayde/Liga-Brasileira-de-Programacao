@@ -1,0 +1,46 @@
+.training-section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #f4f8ff;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .training-section h2 {
+    font-size: 2.4rem;
+    color: #1e2a38;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .training-topic {
+    margin-bottom: 35px;
+  }
+  
+  .training-topic h3 {
+    font-size: 1.6rem;
+    color: #293a4d;
+    margin-bottom: 15px;
+  }
+  
+  .training-topic ul {
+    padding-left: 25px;
+  }
+  
+  .training-topic ul li {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .training-topic a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .training-topic a:hover {
+    text-decoration: underline;
+  }
+  
