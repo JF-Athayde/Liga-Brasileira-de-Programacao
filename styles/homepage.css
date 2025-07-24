@@ -1,0 +1,202 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #2a9d8f;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #21867a;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #264653;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-links li a:hover {
+  color: #2a9d8f;
+}
+
+/* MAIN CONTENT */
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2a9d8f, #264653);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button.primary {
+  background-color: #e76f51;
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #d3543c;
+}
+
+.button.secondary {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+.button.secondary:hover {
+  background-color: #1f6e72;
+}
+
+/* SECTIONS (about, ranking, training) */
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #264653;
+  font-weight: 700;
+}
+
+.about-preview p,
+.training-preview p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Lista do ranking */
+.ranking-preview ul {
+  list-style: none;
+  padding-left: 1rem;
+  color: #333;
+}
+
+.ranking-preview ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Link simples para chamadas nas seções */
+.button-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2a9d8f;
+  font-weight: 600;
+}
+
+.button-link:hover {
+  color: #1f6e72;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  background-color: #264653;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    margin: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
