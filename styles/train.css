@@ -1,46 +1,120 @@
+/* train.css */
+
+/* Hero da página */
+.hero {
+  background: linear-gradient(135deg, #2a9d8f, #264653);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem auto 3rem;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero .button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.hero .button.primary {
+  background-color: #e76f51;
+  color: white;
+}
+
+.hero .button.primary:hover {
+  background-color: #d3543c;
+}
+
+.hero .button.secondary {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+.hero .button.secondary:hover {
+  background-color: #1f6e72;
+}
+
+/* Seção de tópicos de treino */
 .training-section {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 40px;
-    background-color: #f4f8ff;
-    border-radius: 16px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-    font-family: 'Segoe UI', sans-serif;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+  color: #333;
+}
+
+.training-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #264653;
+  font-weight: 700;
+  text-align: center;
+}
+
+.training-topic {
+  margin-bottom: 2.5rem;
+}
+
+.training-topic h3 {
+  font-size: 1.4rem;
+  color: #2a9d8f;
+  margin-bottom: 1rem;
+}
+
+.training-topic ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #444;
+}
+
+.training-topic ul li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.training-topic a {
+  color: #2a9d8f;
+  font-weight: 600;
+}
+
+.training-topic a:hover {
+  color: #1f6e72;
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
   }
-  
+
   .training-section h2 {
-    font-size: 2.4rem;
-    color: #1e2a38;
-    margin-bottom: 30px;
-    text-align: center;
+    font-size: 1.5rem;
   }
-  
-  .training-topic {
-    margin-bottom: 35px;
-  }
-  
-  .training-topic h3 {
-    font-size: 1.6rem;
-    color: #293a4d;
-    margin-bottom: 15px;
-  }
-  
-  .training-topic ul {
-    padding-left: 25px;
-  }
-  
-  .training-topic ul li {
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    color: #333;
-  }
-  
-  .training-topic a {
-    color: #0077cc;
-    text-decoration: none;
-  }
-  
-  .training-topic a:hover {
-    text-decoration: underline;
-  }
-  
+}

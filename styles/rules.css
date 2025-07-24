@@ -1,72 +1,42 @@
-main {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.rules-section {
+  max-width: 900px;
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
+  color: #333;
 }
 
-.rules {
-    max-width: 56.25rem; /* 900px */
-    margin: 0 auto;
-    padding: 2.5rem 1.25rem;
-    background-color: #fffefc;
-    border-radius: 0.75rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.05);
+.rules-section h1 {
+  color: #264653;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.rules h1 {
-    font-size: 2rem;
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 1.5rem;
+.rules-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
 }
 
-.rules p {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: #333;
-    margin-bottom: 1.25rem;
-    text-align: justify;
+.rules-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  color: #444;
 }
 
-.rules ul {
-    list-style-type: decimal;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+.rules-section ul li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-.rules ul li {
-    font-size: 1rem;
-    color: #444;
-    margin-bottom: 1rem;
-    line-height: 1.6;
+.rules-section ul li strong {
+  color: #264653;
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
-    .rules {
-        padding: 2rem 1rem;
-    }
-
-    .rules h1 {
-        font-size: 1.75rem;
-    }
-
-    .rules p,
-    .rules ul li {
-        font-size: 0.95rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .rules {
-        padding: 1.5rem 0.75rem;
-    }
-
-    .rules h1 {
-        font-size: 1.5rem;
-    }
-
-    .rules p,
-    .rules ul li {
-        font-size: 0.9rem;
-    }
+@media (max-width: 600px) {
+  .rules-section {
+    margin: 1rem 0 2rem;
+  }
 }
